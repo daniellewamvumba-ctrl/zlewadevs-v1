@@ -1,5 +1,14 @@
 import streamlit as st
 
+st.markdown(
+    """
+    # 🚀 Z.LewaDevs
+
+    ### Python • Data • Automation • SaaS Builder
+
+    ---
+    """
+)
 st.set_page_config(
     page_title="Z.LewaDevs",
     page_icon="🚀",
@@ -73,57 +82,38 @@ data analysis, visualization, and Streamlit applications.
 
 My long-term goal is to build useful software products,
 automation systems, and technology businesses.
+I am a self-taught developer building in public.
+
+I focus on:
+- Python development
+- Web scraping systems
+- Data analysis projects
+- Automation tools
+- Building SaaS ideas
+
+This portfolio documents my learning and projects.
 """)
 
-st.divider()
 
-st.header("🔥 Current Focus")
 
-focus_items = [
-    "Python Development",
-    "Web Scraping",
-    "Data Cleaning",
-    "Data Analysis",
-    "Data Visualization",
-    "Streamlit Development",
-    "Building Z.LewaDevs V1"
-]
 
-for item in focus_items:
-    st.write(f"🎯 {item}")
-
-st.divider()
-
-st.header("📈 Version 1 Progress")
-
-st.progress(40)
-
-st.write(
+st.info(
     "The Z.LewaDevs V1 portfolio is currently under active development."
 )
 
-st.write("""
-Welcome to my developer journey.
 
-I am learning and building:
-- Python
-- Web Scraping
-- Data Cleaning
-- Data Analysis
-- Data Visualization
-- Streamlit Applications
-""")
+
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.metric("Skills", "7")
+    st.metric("Automation tools ","APIS")
 
 with col2:
-    st.metric("Projects", "4")
+    st.metric("Data Systems", "Web Scraping & Analysis")
 
 with col3:
-    st.metric("Platforms", "4")
+    st.metric("Web apps (streamlit)", "Streamlit Apps")
 
 st.divider()
 
@@ -153,10 +143,14 @@ st.divider()
 
 st.header("🌐 Platforms")
 
-st.write("💻 GitHub")
-st.write("▶️ YouTube")
-st.write("🎵 TikTok")
-st.write("💼 LinkedIn")
+st.write("I share my learning journey and projects on multiple platforms:")
+st.subheader("🌐 Links")
+
+st.write("💻 GitHub: https://github.com/daniellewamvumba-ctrl")
+st.write("▶️ YouTube: https://www.youtube.com/@Z.lewadevs")
+st.success("""
+I don’t just learn programming — I build and document everything publicly.
+""")
 
 st.divider()
 
